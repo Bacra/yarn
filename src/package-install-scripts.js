@@ -196,10 +196,6 @@ export default class PackageInstallScripts {
       return false;
     }
 
-    // we haven't actually written this module out
-    if (ref.ignore) {
-      return false;
-    }
     return true;
   }
 
